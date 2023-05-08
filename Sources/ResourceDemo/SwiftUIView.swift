@@ -9,7 +9,8 @@ import SwiftUI
 
 public struct SwiftUIView: View {
   public var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    Image("隐私协议_勾选提示_bg", bundle: Bundle.module)
+    
     }
   
   public init() {
